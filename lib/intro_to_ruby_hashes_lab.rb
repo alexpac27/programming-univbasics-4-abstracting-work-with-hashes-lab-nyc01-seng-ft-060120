@@ -18,5 +18,5 @@ end
 p hash
 end
 
-update_counting_hash({name: "Alex"},:number)
+update_counting_hash({name: "Alex", :number => 3},:number)
 update_counting_hash({name: "Alex"},:number)
